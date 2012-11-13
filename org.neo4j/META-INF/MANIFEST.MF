@@ -39,4 +39,5 @@ Export-Package: org.neo4j.cypher.javacompat,
  org.neo4j.kernel,
  org.neo4j.kernel.configuration,
  org.neo4j.kernel.impl.core,
- org.neo4j.rest.graphdb
+ org.neo4j.rest.graphdb,
+ org.neo4j.rest.graphdb.query
