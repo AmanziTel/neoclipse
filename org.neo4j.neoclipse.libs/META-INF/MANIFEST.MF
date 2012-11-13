@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Libs
+Bundle-SymbolicName: org.neo4j.neoclipse.libs
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: lib/dom4j-1.6.1.jar,
+ lib/xml-apis-1.0.b2.jar,
+ lib/gson-2.2.2.jar,
+ lib/json-20090211.jar
+Export-Package: com.google.gson,
+ org.dom4j,
+ org.dom4j.io,
+ org.dom4j.tree,
+ org.json
