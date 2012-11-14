@@ -29,6 +29,7 @@
 		<module>org.neo4j</module>
 		<module>org.neo4j.feature</module>
 		<module>org.neo4j.neoclipse</module>
+		<module>org.neo4j.neoclipse.doc</module>
 		<module>org.neo4j.neoclipse.feature</module>
 		<module>org.neo4j.neoclipse.libs</module>
 		<module>org.neo4j.neoclipse.project</module>
