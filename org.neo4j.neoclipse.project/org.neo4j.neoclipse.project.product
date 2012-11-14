@@ -199,6 +199,7 @@ conditions in this Agreement.
 
    <features>
       <feature id="org.neo4j.neoclipse.feature"/>
+      <feature id="org.eclipse.platform"/>
    </features>
 
 
