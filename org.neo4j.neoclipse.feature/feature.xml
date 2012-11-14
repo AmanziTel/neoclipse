@@ -18,6 +18,8 @@
 
    <requires>
       <import feature="org.neo4j.feature" version="1.8.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.recommenders.feature.3rd.orbit" version="1.0.0.v20120914-1432-b175"/>
+      <import feature="org.eclipse.platform" version="4.2.1.v20120814-120134-9JF7BHVGFyMveli1uX6aTH0q-eAap6PAgOP5mO"/>
    </requires>
 
    <plugin
