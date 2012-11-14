@@ -28,7 +28,7 @@ This software is realeased under the Neo4j Software License for Neoclipse Versio
       startupMessageRect="7,250,441,20"
       startupForegroundColor="FFFFFF" />
    <launcher name="neoclipse">
-      <linux icon="/org.neo4j.neoclipse/icons/obj16/neo-48.xpm"/>
+      <linux icon="icons/obj16/neo-48.xpm"/>
       <macosx icon="/org.neo4j.neoclipse/icons/obj16/neo.icns"/>
       <solaris/>
       <win useIco="true">
@@ -36,6 +36,7 @@ This software is realeased under the Neo4j Software License for Neoclipse Versio
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>
