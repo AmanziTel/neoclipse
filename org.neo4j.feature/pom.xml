@@ -9,7 +9,8 @@
 		<version>${neoclipse-version}</version>
 	</parent>
 	<groupId>org.neo4j</groupId>
-	<artifactId>org.neo4j</artifactId>
+	<artifactId>org.neo4j.feature</artifactId>
 	<version>${neo4j-version}</version>
-	<packaging>eclipse-plugin</packaging>
+	<packaging>eclipse-feature</packaging>
+		
 </project>

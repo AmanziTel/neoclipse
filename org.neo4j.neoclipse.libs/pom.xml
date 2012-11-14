@@ -9,7 +9,7 @@
 		<version>${neoclipse-version}</version>
 	</parent>
 	<groupId>org.neo4j</groupId>
-	<artifactId>org.neo4j</artifactId>
-	<version>${neo4j-version}</version>
+	<artifactId>org.neo4j.neoclipse.libs</artifactId>
+	<version>1.0.0.qualifier</version>
 	<packaging>eclipse-plugin</packaging>
 </project>

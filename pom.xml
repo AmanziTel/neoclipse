@@ -1,20 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+
 	<url>http://wiki.neo4j.org/content/Neoclipse</url>
-  <parent>
-    <groupId>org.neo4j.build</groupId>
-    <artifactId>parent-central</artifactId>
-    <version>35</version>
-  </parent>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.neo4j</groupId>
-  <artifactId>neoclipse</artifactId>
-  <name>Neoclipse Project</name>
-  <version>1.8-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <modules>
-    <module>org.neo4j.neoclipse</module>
-    <module>org.neo4j.neoclipse.doc</module>
-  </modules>
+
+	<properties>
+		<tycho-version>0.15.0</tycho-version>
+		<neoclipse-version>1.8.0</neoclipse-version>
+		<neo4j-version>1.8.0</neo4j-version>
+	</properties>
+
+	<artifactId>neoclipse</artifactId>
+	<groupId>org.neo4j</groupId>
+	<version>${neoclipse-version}</version>
+	<packaging>pom</packaging>
+	
+	<repositories>
+		<repository>
+			<id>indigo</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/indigo</url>
+		</repository>
+	</repositories>
+	
+	<modules>
+		<module>org.neo4j</module>
+		<module>org.neo4j.feature</module>
+		<module>org.neo4j.neoclipse</module>
+		<module>org.neo4j.neoclipse.feature</module>
+		<module>org.neo4j.neoclipse.libs</module>
+	</modules>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<environments>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86</arch>
+						</environment>
+						<!-- <environment> <os>macosx</os> <ws>carbon</ws> <arch>x86</arch> 
+							</environment> <environment> <os>macosx</os> <ws>cocoa</ws> <arch>x86</arch> 
+							</environment> <environment> <os>macosx</os> <ws>cocoa</ws> <arch>x86_64</arch> 
+							</environment> -->
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86_64</arch>
+						</environment>
+					</environments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
