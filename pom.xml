@@ -23,6 +23,11 @@
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/indigo</url>
 		</repository>
+		<repository>
+			<id>sts</id>
+			<layout>p2</layout>
+			<url>http://dist.springsource.com/release/TOOLS/update/e3.7</url>
+		</repository>
 	</repositories>
 	
 	<modules>
