@@ -100,6 +100,46 @@
 							<ws>win32</ws>
 							<arch>x86_64</arch>
 						</environment>
+						<environment>
+							<os>aix</os>
+							<ws>gtk</ws>
+							<arch>ppc</arch>
+						</environment>
+						<environment>
+							<os>aix</os>
+							<ws>gtk</ws>
+							<arch>ppc64</arch>							
+						</environment>
+						<environment>
+							<os>hpux</os>
+							<ws>gtk</ws>
+							<arch>ia64_32</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>ppc64</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>s390</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>s390x</arch>
+						</environment>
+						<environment>
+							<os>solaris</os>
+							<ws>gtk</ws>
+							<arch>sparc</arch>
+						</environment>
+						<environment>
+							<os>solaris</os>
+							<ws>gtk</ws>
+							<arch>x86</arch>
+						</environment>
 					</environments>
 				</configuration>
 			</plugin>

@@ -2,7 +2,7 @@
 <feature
       id="org.neo4j.neoclipse.base.feature"
       label="Feature"
-      version="1.0.0.qualifier">
+      version="1.8.0">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -342,6 +342,7 @@
    <plugin
          id="org.eclipse.core.filesystem.solaris.sparc"
          os="solaris"
+         arch="sparc"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -528,6 +529,7 @@
          id="org.eclipse.swt.carbon.macosx"
          os="macosx"
          ws="carbon"
+         arch="x86"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -538,6 +540,7 @@
          id="org.eclipse.swt.cocoa.macosx"
          os="macosx"
          ws="cocoa"
+         arch="x86"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -731,6 +734,7 @@
    <plugin
          id="org.eclipse.update.core.linux"
          os="linux"
+         arch="x86"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -740,6 +744,7 @@
    <plugin
          id="org.eclipse.update.core.win32"
          os="win32"
+         arch="x86"
          download-size="0"
          install-size="0"
          version="0.0.0"
