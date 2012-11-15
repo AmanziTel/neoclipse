@@ -44,6 +44,7 @@
 		<module>org.neo4j</module>
 		<module>org.neo4j.feature</module>
 		<module>org.neo4j.neoclipse</module>
+		<module>org.neo4j.neoclipse.base.feature</module>
 		<module>org.neo4j.neoclipse.doc</module>
 		<module>org.neo4j.neoclipse.feature</module>
 		<module>org.neo4j.neoclipse.libs</module>
@@ -74,10 +75,21 @@
 							<ws>gtk</ws>
 							<arch>x86</arch>
 						</environment>
-						<!-- <environment> <os>macosx</os> <ws>carbon</ws> <arch>x86</arch> 
-							</environment> <environment> <os>macosx</os> <ws>cocoa</ws> <arch>x86</arch> 
-							</environment> <environment> <os>macosx</os> <ws>cocoa</ws> <arch>x86_64</arch> 
-							</environment> -->
+						<environment> 
+							<os>macosx</os> 
+							<ws>carbon</ws> 
+							<arch>x86</arch> 
+						</environment> 
+						<environment> 
+							<os>macosx</os> 
+							<ws>cocoa</ws> 
+							<arch>x86</arch> 
+						</environment> 
+						<environment> 
+							<os>macosx</os> 
+							<ws>cocoa</ws> 
+							<arch>x86_64</arch> 
+						</environment>
 						<environment>
 							<os>win32</os>
 							<ws>win32</ws>
