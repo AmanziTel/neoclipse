@@ -5,8 +5,6 @@
 */build/
 /build/
 *.swp
-.project
-.classpath
 .settings
 *.iws
 *.ipr
