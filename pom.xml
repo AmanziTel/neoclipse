@@ -28,6 +28,11 @@
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/eclipse/updates/3.7</url>
 		</repository>
+		<repository>
+			<id>recommenders</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/recommenders/updates/dev/e37</url>
+		</repository>
 	</repositories>
 	
 	<modules>
