@@ -33,6 +33,11 @@
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/recommenders/updates/dev/e37</url>
 		</repository>
+		<repository>
+			<id>springsource</id>
+			<layout>p2</layout>
+			<url>http://dist.springsource.com/release/TOOLS/update/e3.7</url>
+		</repository>
 	</repositories>
 	
 	<modules>
